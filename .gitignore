@@ -41,3 +41,4 @@ proguard/
 
 # Files specific to this project
 TMessagesProj/src/main/java/org/telegram/messenger/BuildVars.java
+gitignored/
