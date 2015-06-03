@@ -254,6 +254,7 @@
     <string name="ChatBackground">Chat Background</string>
     <string name="MessagesSettings">Messages</string>
     <string name="SendByEnter">Send by Enter</string>
+    <string name="buddy_for_android">"Buddy for Android v"</string>
     <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="Events">Events</string>
     <string name="ContactJoined">Contact joined Telegram</string>

@@ -232,10 +232,10 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
         messagesSectionRow2 = rowCount++;
         textSizeRow = rowCount++;
         sendByEnterRow = rowCount++;
-        supportSectionRow = rowCount++;
-        supportSectionRow2 = rowCount++;
-        askQuestionRow = rowCount++;
-        telegramFaqRow = rowCount++;
+//        supportSectionRow = rowCount++;
+//        supportSectionRow2 = rowCount++;
+//        askQuestionRow = rowCount++;
+//        telegramFaqRow = rowCount++;
         if (BuildVars.DEBUG_VERSION) {
             sendLogsRow = rowCount++;
             clearLogsRow = rowCount++;
@@ -1139,7 +1139,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
                     view = new TextInfoCell(mContext);
                     try {
                         PackageInfo pInfo = ApplicationLoader.applicationContext.getPackageManager().getPackageInfo(ApplicationLoader.applicationContext.getPackageName(), 0);
-                        ((TextInfoCell) view).setText(String.format(Locale.US, "Telegram for Android v%s (%d)", pInfo.versionName, pInfo.versionCode));
+                        ((TextInfoCell) view).setText(mContext.getString(R.string.buddy_for_android)+ pInfo.versionName + " ("+ pInfo.versionCode + ")");
                     } catch (Exception e) {
                         FileLog.e("tmessages", e);
                     }
