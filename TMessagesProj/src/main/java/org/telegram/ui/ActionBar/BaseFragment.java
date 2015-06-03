@@ -78,7 +78,7 @@ public class BaseFragment {
             if (parentLayout != null) {
                 actionBar = new ActionBar(parentLayout.getContext());
                 actionBar.parentFragment = this;
-                actionBar.setBackgroundColor(this.getParentActivity().getResources().getColor(R.color.action_bar_bg));
+                actionBar.setBackgroundColor(this.getParentActivity().getResources().getColor(R.color.primary));
                 actionBar.setItemsBackground(R.drawable.bar_selector);
             }
         }
