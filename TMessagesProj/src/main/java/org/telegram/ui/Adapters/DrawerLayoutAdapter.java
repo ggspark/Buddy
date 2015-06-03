@@ -42,7 +42,7 @@ public class DrawerLayoutAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return UserConfig.isClientActivated() ? 10 : 0;
+        return UserConfig.isClientActivated() ? 9 : 0;
     }
 
     @Override

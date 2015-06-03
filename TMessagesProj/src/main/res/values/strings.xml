@@ -164,7 +164,7 @@
     <!--contacts view-->
     <string name="SelectContact">Select Contact</string>
     <string name="NoContacts">No contacts yet</string>
-    <string name="InviteText">Hey, let\'s switch to Telegram: https://telegram.org/dl</string>
+    <string name="InviteText">Hey, let\'s switch to Buddy: http://buddyapp.in</string>
     <string name="TodayAt">at</string>
     <string name="YesterdayAt">yesterday at</string>
     <string name="Online">online</string>
