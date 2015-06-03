@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import org.telegram.android.AndroidUtilities;
 import org.telegram.android.LocaleController;
+import org.telegram.messenger.R;
 
 public class TextCell extends FrameLayout {
 
@@ -48,7 +49,7 @@ public class TextCell extends FrameLayout {
         textView.setLayoutParams(layoutParams);
 
         valueTextView = new TextView(context);
-        valueTextView.setTextColor(0xff2f8cc9);
+        valueTextView.setTextColor(getResources().getColor(R.color.profilecell_value));
         valueTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16);
         valueTextView.setLines(1);
         valueTextView.setMaxLines(1);

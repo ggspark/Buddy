@@ -224,8 +224,8 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
 
     @Override
     public View createView(Context context, LayoutInflater inflater) {
-        actionBar.setBackgroundColor(AvatarDrawable.getProfileBackColorForId(user_id != 0 ? 5 : chat_id));
-        actionBar.setItemsBackground(AvatarDrawable.getButtonColorForId(user_id != 0 ? 5 : chat_id));
+        actionBar.setBackgroundColor(getParentActivity().getResources().getColor(R.color.action_bar_bg));
+        actionBar.setItemsBackground(R.drawable.bar_selector);
         actionBar.setBackButtonImage(R.drawable.ic_ab_back);
         actionBar.setExtraHeight(AndroidUtilities.dp(88), false);
         if (AndroidUtilities.isTablet()) {
@@ -375,7 +375,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
         });
 
         nameTextView = new TextView(context);
-        nameTextView.setTextColor(0xffffffff);
+        nameTextView.setTextColor(getParentActivity().getResources().getColor(R.color.action_bar_name));
         nameTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
         nameTextView.setLines(1);
         nameTextView.setMaxLines(1);
@@ -394,7 +394,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
         nameTextView.setLayoutParams(layoutParams);
 
         onlineTextView = new TextView(context);
-        onlineTextView.setTextColor(AvatarDrawable.getProfileTextColorForId(user_id != 0 ? 5 : chat_id));
+        onlineTextView.setTextColor(getParentActivity().getResources().getColor(R.color.action_bar_status));
         onlineTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
         onlineTextView.setLines(1);
         onlineTextView.setMaxLines(1);
@@ -1323,7 +1323,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                     textCell.setTextAndIcon(LocaleController.getString("NotificationsAndSounds", R.string.NotificationsAndSounds), R.drawable.profile_list);
                 } else if (i == startSecretChatRow) {
                     textCell.setText(LocaleController.getString("StartEncryptedChat", R.string.StartEncryptedChat));
-                    textCell.setTextColor(0xff37a919);
+                    textCell.setTextColor(getParentActivity().getResources().getColor(R.color.start_secret_chat));
                 } else if (i == settingsKeyRow) {
                     IdenticonDrawable identiconDrawable = new IdenticonDrawable();
                     TLRPC.EncryptedChat encryptedChat = MessagesController.getInstance().getEncryptedChat((int)(dialog_id >> 32));
