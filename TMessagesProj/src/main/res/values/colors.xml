@@ -14,6 +14,7 @@
     <!-- Extended Color pallet http://www.google.co.in/design/spec/style/color.html#color-color-palette -->
     <color name="accent_light">#FF8A65</color>
 
+    <color name="action_bar_bg">@color/primary</color>
     <color name="drawer_profile">@color/primary</color>
     <color name="bar_selector_bg">@color/primary_dark</color>
     <color name="background_tab_pressed">@color/primary_dark</color>

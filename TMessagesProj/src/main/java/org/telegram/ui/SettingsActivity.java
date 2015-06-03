@@ -269,7 +269,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
 
     @Override
     public View createView(Context context, LayoutInflater inflater) {
-        actionBar.setBackgroundColor(AvatarDrawable.getProfileBackColorForId(5));
+        actionBar.setBackgroundColor(getParentActivity().getResources().getColor(R.color.action_bar_bg));
         actionBar.setItemsBackground(AvatarDrawable.getButtonColorForId(5));
         actionBar.setBackButtonImage(R.drawable.ic_ab_back);
         actionBar.setExtraHeight(AndroidUtilities.dp(88), false);
