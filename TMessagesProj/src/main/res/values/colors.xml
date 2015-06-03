@@ -19,4 +19,5 @@
     <color name="background_tab_pressed">@color/primary_dark</color>
     <color name="switch_track_checked">@color/accent_light</color>
     <color name="switch_thumb_checked">@color/accent</color>
+    <color name="headercell_text">@color/primary_dark</color>
 </resources>
