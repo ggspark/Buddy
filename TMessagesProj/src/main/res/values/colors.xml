@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_tab_pressed">#6633B5E5</color>
-    <color name="divider">#dcdcdc</color>
 
-    <color name="primary">#9C27B0</color>
-    <color name="primary_dark">#435e7e</color>
-    <color name="accent">#AB47BC</color>
+    <!-- Color pallet teal and orange http://www.materialpalette.com/ -->
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#00796B</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
 
-    <color name="drawer_profile">@color/accent</color>
+    <color name="drawer_profile">@color/primary</color>
+    <color name="bar_selector_bg">@color/primary_dark</color>
+    <color name="background_tab_pressed">@color/primary_dark</color>
+
 </resources>
