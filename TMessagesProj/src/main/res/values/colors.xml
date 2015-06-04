@@ -29,4 +29,6 @@
     <color name="action_bar_status">@color/primary_light</color>
     <color name="profilecell_value">@color/accent</color>
     <color name="start_secret_chat">@color/secondary_text</color>
+    <color name="reg_button_normal">@color/primary</color>
+    <color name="reg_button_pressed">@color/primary_dark</color>
 </resources>
