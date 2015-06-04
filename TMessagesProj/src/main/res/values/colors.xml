@@ -20,8 +20,8 @@
     <color name="drawer_profile">@color/primary</color>
     <color name="bar_selector_bg">@color/primary_dark</color>
     <color name="background_tab_pressed">@color/primary_dark</color>
-    <color name="switch_track_checked">@color/accent_light</color>
-    <color name="switch_thumb_checked">@color/accent</color>
+    <color name="switch_track_checked">@color/accent</color>
+    <color name="switch_thumb_checked">@color/accent_light</color>
     <color name="headercell_text">@color/primary_dark</color>
     <color name="settingcell_value">@color/accent</color>
     <color name="action_bar_bg">@color/primary</color>
