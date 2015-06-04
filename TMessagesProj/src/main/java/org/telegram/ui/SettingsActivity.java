@@ -219,7 +219,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
         notificationRow = rowCount++;
         privacyRow = rowCount++;
         backgroundRow = rowCount++;
-        languageRow = rowCount++;
+//        languageRow = rowCount++;
         enableAnimationsRow = rowCount++;
         mediaDownloadSection = rowCount++;
         mediaDownloadSection2 = rowCount++;
